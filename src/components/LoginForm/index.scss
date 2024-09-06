@@ -1,0 +1,28 @@
+.login-form {
+  flex-direction: column;
+  margin: 30px;
+
+  .input-wrapper {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+
+    label {
+      margin-bottom: 5px;
+    }
+
+    input {
+      padding: 15px 10px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      background-color: rgb(88, 87, 87);
+      border: 3px solid transparent;
+      color: white;
+      &:focus {
+        border-color: #bf4080;
+      }
+    }
+  }
+}

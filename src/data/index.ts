@@ -1,0 +1,15 @@
+import { IFormInput } from "../interfaces/index";
+export const formInputList: IFormInput[] = [
+  {
+    label: "Email",
+    type: "email",
+    name: "email",
+    id: "email",
+  },
+  {
+    label: "Password",
+    type: "password",
+    name: "password",
+    id: "password",
+  },
+];

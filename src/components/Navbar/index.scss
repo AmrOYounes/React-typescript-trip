@@ -1,0 +1,19 @@
+.navbar-list {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+background-color: #f2d3ed;
+border-radius: 20px;
+padding: 10px;
+margin: 20px;
+
+li {
+&:hover {
+  a {
+    color: green;
+  }   
+}
+}
+}
+
+ 
